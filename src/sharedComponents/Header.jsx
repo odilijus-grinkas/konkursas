@@ -9,8 +9,14 @@ export default function Header(){
         </h1>
       </header>
       <nav>
-        <Link to="/miestai">Miestai</Link>
-        <Link to="/pasirinkti">Pasirinkti Miestai</Link>
+        <ul>
+          <li>
+            <Link to="/miestai">Miestai</Link>
+          </li>
+          <li>
+            <Link to="/pasirinkti">Pasirinkti Miestai</Link>
+          </li>
+        </ul>
       </nav>
     </>
   )
